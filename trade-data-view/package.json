@@ -1,0 +1,31 @@
+{
+  "name": "trade-data-view",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.0.2",
+    "bulma": "^0.9.4",
+    "chart.js": "^3.8.2",
+    "chartjs-adapter-date-fns": "^2.0.0",
+    "chartjs-plugin-autocolors": "^0.0.6",
+    "date-fns": "^2.29.1",
+    "lodash-es": "^4.17.21",
+    "vue": "^3.2.37",
+    "vue-chartjs": "^4.1.1",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "sass": "^1.54.0",
+    "vite": "^3.0.1"
+  }
+}
